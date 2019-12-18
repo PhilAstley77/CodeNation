@@ -2,11 +2,19 @@ body {
     background-image: url("matrixcode.jpeg");
     color: rgb(201, 206, 193);
     font-size: 20px;
-    
+}
 
-
+.container {
+    display: flex;
+    min-height: 100vh;
+    flex-wrap: wrap;
 }
 
 .button {
     background-color: white;
+}
+
+.gif {
+    width: 60%;
+    height:60%;
 }
